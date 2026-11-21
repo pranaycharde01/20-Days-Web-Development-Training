@@ -1,0 +1,70 @@
+
+/* ==============================
+   GLOBAL RESET
+================================ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ==============================
+   ROOT SETTINGS
+================================ */
+
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1e293b;
+  background-color: #f4f6f9;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+/* ==============================
+   HTML AND BODY
+================================ */
+
+html {
+  width: 100%;
+  min-width: 320px;
+  min-height: 100%;
+}
+
+body {
+  width: 100%;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+/* ==============================
+   REACT ROOT
+================================ */
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* ==============================
+   FORM ELEMENTS
+================================ */
+
+input,
+button,
+select {
+  font-family: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* ==============================
+   TEXT SELECTION
+================================ */
+
+::selection {
+  background-color: #bfdbfe;
+  color: #1e3a8a;
+}

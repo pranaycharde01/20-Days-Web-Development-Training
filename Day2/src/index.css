@@ -1,0 +1,49 @@
+
+/* Global reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Root settings */
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1e293b;
+  background-color: #f1f5f9;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+/* Page settings */
+html {
+  min-width: 320px;
+  min-height: 100%;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+/* React root */
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Form elements */
+input,
+button {
+  font-family: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Text selection */
+::selection {
+  background-color: #bfdbfe;
+  color: #1e3a8a;
+}
