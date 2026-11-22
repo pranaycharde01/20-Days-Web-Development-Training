@@ -1,5 +1,11 @@
 # Day 5 – Employee Management Dashboard
 
+## Live Demo
+
+**Deployed Application:** https://20-days-web-development-training.vercel.app/
+
+**Hosting Platform:** Vercel
+
 ## Project Overview
 
 The Employee Management Dashboard is a responsive React application developed as a Day 5 front-end checkpoint project.
